@@ -153,7 +153,7 @@ figure {
 	will-change: transform;
 }
 --*/
-.owl-theme .owl-controls .owl-page span{
+.owl-theme owl-dots owl-dot span{
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
