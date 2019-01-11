@@ -10,7 +10,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-	
 	<link href="style.css" rel="stylesheet" />
 </head>
 
@@ -18,6 +17,7 @@
 <script>
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
+	singleItem:true,
     loop:true,
     autoplay:true,
     autoplayTimeout:2000,
@@ -56,6 +56,7 @@ $(document).ready(function(){
 				<li><a href="#">Contato</a></li>
 			</ul>
 		</div>
+    </div>
 </nav>
 <!--- Fim Menu no topo da pagina
 <div id="home">
@@ -64,20 +65,20 @@ $(document).ready(function(){
 		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu commodo lectus. </h3>
 		<a href="#" class="btn btn-default btn-lg">Get Started</a>
 	</div>-->
-	<div class="owl-carousel owl-theme">
+	<div id="slide" class="owl-carousel owl-theme">
 		<div class="item"><img src="img/bread1.jpg"/></div>
 		<div class="item"><img src="img/bread2.jpg"/></div>
 		<div class="item"><img src="img/bread3.jpg"/></div>
 		<div class="item"><img src="img/bread4.jpg"/></div>
 	</div>
 
-<!---</div>-->
-</div>
+<!---</div>
+</div>-->
 <div class="padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<img src="img/bootstrap.png">
+				<img src="img/bread1.jpg">
 			</div>
 			<div class="col-sm-6 text-center">
 				<h2>All About Using Bootstrap.</h2>
@@ -95,21 +96,19 @@ $(document).ready(function(){
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu commodo lectus. Praesent venenatis neque nec iaculis semper. Nunc venenatis ac mi auctor fermentum. Nunc gravida aliquam congue. Proin vestibulum eros aliquam, fringilla est vel, lacinia lectus. Suspendisse sed condimentum enim, et vestibulum eros.</p>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<img src="img/sass.png" class="img-responsive">
+				<img src="img/bread2.jpg" class="img-responsive">
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<h4>And Less</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu commodo lectus. Praesent venenatis neque nec iaculis semper. Nunc venenatis ac mi auctor fermentum. Nunc gravida aliquam congue. Proin vestibulum eros aliquam, fringilla est vel, lacinia lectus. Suspendisse sed condimentum enim, et vestibulum eros.</p>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<img src="img/less.png" class="img-responsive">
+				<img src="img/bread5.jpg" class="img-responsive">
 			</div>
 		</div>
 	</div>
 </div>
-</div>
-<div id="fixed">
-</div>
+<div id="fixed"></div>
 <div class="padding">
 	<div class="container">
 		<div class="row">
@@ -119,12 +118,11 @@ $(document).ready(function(){
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu commodo lectus. Praesent venenatis neque nec iaculis semper. Nunc venenatis ac mi auctor fermentum. Nunc gravida aliquam congue. Proin vestibulum eros aliquam, fringilla est vel, lacinia lectus. Suspendisse sed condimentum enim, et vestibulum eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu commodo lectus. Praesent venenatis neque nec iaculis semper. Nunc venenatis ac mi auctor fermentum. Nunc gravida aliquam congue. Proin vestibulum eros aliquam, fringilla est vel, lacinia lectus. Suspendisse sed condimentum enim, et vestibulum eros.</p>
 			</div>
 			<div class="col-sm-6">
-				<img src="img/bootstrap2.png">
+				<img src="img/bread3.jpg">
 			</div>
 		</div>
 	</div>
 </div>
-
 <footer class="container-fluid text-center">
 	<div class="row">
 		<div class="col-sm-4">
@@ -138,14 +136,10 @@ $(document).ready(function(){
   			<a href="#" class="fab fa-instagram fa-4x"></a>
 		</div>
 		<div class="col-sm-4">
-			<img src="img/b.png" class="icon">
+			<img src="//via.placeholder.com/350x150" class="icon">
 		</div>
 	</div>
 </footer>
-
-
-
-
 <!--- iOS Landing Page Fix
 <section>
 	<div class="landing-text">
